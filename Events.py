@@ -14,7 +14,7 @@ driver = webdriver.Chrome(options=chrome_options)
 driver.implicitly_wait(10)
 
 # Navigate to the page
-driver.get('https://www.python.org/')  # Replace with the actual URL
+driver.get('https://www.python.org/')
 
 # Find elements by css selector
 event_times = driver.find_elements(By.CSS_SELECTOR, ".event-widget time")
